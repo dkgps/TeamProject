@@ -9,4 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+
+  <servlet>
+	<servlet-name>QnaController</servlet-name>
+	<servlet-class>com.hk.th.QnaController</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+	<servlet-name>QnaController</servlet-name>
+	<url-pattern>*.go</url-pattern>
+  </servlet-mapping>
+
 </web-app>

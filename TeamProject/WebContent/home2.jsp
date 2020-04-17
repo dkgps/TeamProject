@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
-<% request.setCharacterEncoding("utf-8"); %>
+<%@ page import = "java.io.PrintWriter" %>
+<%@ page import="mini.dao.*" %>
+<%@ page import="mini.vo.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,9 +28,7 @@ margin-top:10px;
 #all{
 width:100%;
 height:500px;
-/* background-image: url('../images_shin/d1.jpg');
-background-repeat: no-repeat;
-background-size: 100%, 50%; */ 
+
 }
 
 #top {
@@ -43,7 +43,7 @@ padding-top:10px;
 font-family: DX시인과나;
 color:#eee;
 font-size:500%;
-background-img:url('../images_shin/en.jpg');
+background-img:url('images/en.jpg');
 }
 
 #box {
@@ -78,10 +78,6 @@ text-decoration:none;}
 a:hover{
 text-decoration:underline;}
 .lo{
-/* background-../images_shin: url('../images_shin/brown2.PNG'); */
-/* width:100%;
-height:50px; */
-/* margin:0px; */
 text-align:right;
 padding-left:7px;
 margin:20px 40px 20px 20px;
@@ -122,13 +118,13 @@ width:100%;
 height:600px;
 }
 
-
 </style>
-
 </head>
 
-
 <body>
+
+
+
 <div id="all">
 <h2 class="llogo"><a href="home2.jsp">DSMS</a></h2>
 <br>
@@ -143,13 +139,13 @@ height:600px;
 
 <div id="middle">	
 <div id ="left">
-<p><img src="../images_shin/en.jpg" width="700" height="500"></p>
+<p><img src="images/en.jpg" width="700" height="500"></p>
 </div>
 	</div>
 	<div id="box">
 	<h1>Top 10 Brands</h1>
 	<p>We share our selection, picking the best<br> from around the stores</p>
-	<p class="btn"><a href="shop_add.jsp"><img src="../images_shin/btn.JPG"></a></p>
+	<p class="btn"><a href="shop_add.jsp"><img src="images/btn.JPG"></a></p>
 	</div>
 </div>
 </div>

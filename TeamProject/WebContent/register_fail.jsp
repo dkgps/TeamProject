@@ -13,18 +13,89 @@ font-family: 나눔고딕;
 color: rgb(102,102,102);
 }
 
+.llogo{
+float:left;
+font-size:200%;
+margin-left:70px;
+border:3px solid rgb(102,102,102);
+padding:5px;
+color:rgb(102,102,102);
+}
+
+a:link, a:visited{
+color:white;
+text-decoration:none;}
+
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }
 
-#title{
+#top {
 width:100%;
-height:450px;
+height:110px;
+color:rgb(102,102,102);
+margin-bottom:50px;
 }
+li{
+display:inline;
+padding:0px 0px 10px 10px;
+margin-right:10px;
+}
+a:link, a:visited{
+color:rgb(102,102,102);
+text-decoration:none;}
+a:hover{
+text-decoration:underline;}
+
+.lo{
+text-align:right;
+padding-left:7px;
+margin:20px;
+font-size:85%
+}
+
+
+
+	#title{
+	text-align:center;
+	padding:100px 0px 140px 0px;
+	}
+	#title p{
+	color:grey;
+	padding-top:10px;
+	}
+	
+	
+	
+	input[type=text], input[type=password]{
+	padding:8px;
+	margin:0px}
+	
+	#main{
+	margin-bottom:150px;}
+	
+#footer{
+font-family:나눔고딕;
+width:100%;
+background-color:grey;
+color:white;
+text-align:center;
+margin-top:0px;
+padding:20px}
+	
+.data{
+text-align:center;}
+
+#bt1{
+width:100px;
+height:30px;
+margin:20px;}
+
+
 </style>
 </head>
 
@@ -40,10 +111,10 @@ height:450px;
 	<div id ="title">
 	<br>
 	<br>
-	<h1>회원등록 취소 하였습니다.</h1>
+	<h1>회원등록을 취소 하였습니다.</h1>
 	<br><br>
 	<div class='data'>	
-	<input type="button" value="Home으로" onclick="location.href='http://localhost/miniproject/home.jsp'">
+	<input type="button" value="Home으로" onclick="location.href='http://localhost/TeamProject/home.jsp'">
 	</div>
 	</div>
 		<div id="footer">

@@ -51,10 +51,6 @@ a:hover{
 text-decoration:underline;}
 
 .lo{
-/* background-../images_shin: url('../images_shin/brown2.PNG'); */
-/* width:100%;
-height:50px; */
-/* margin:0px; */
 text-align:right;
 padding-left:7px;
 margin:20px;

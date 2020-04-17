@@ -15,7 +15,7 @@ color: rgb(102,102,102);
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }
@@ -41,7 +41,7 @@ height:450px;
 	<h1>로그인 실패하였습니다</h1>
 	<br><br>
 	<div class='data'>	
-	<input type="button" value="Home으로" onclick="location.href='http://localhost/miniproject/home.jsp'">
+	<input type="button" value="Home으로" onclick="location.href='http://localhost/TeamProject/home.jsp'">
 </div>
 	</div>
 		<div id="footer">

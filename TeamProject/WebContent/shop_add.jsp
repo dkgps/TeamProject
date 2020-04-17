@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <% request.setCharacterEncoding("utf-8"); %>
-<%@ page import="mini.dao.*" %>
+<%@ page import="mini.dao.*" %> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +11,7 @@ body{
 font-family: 나눔고딕;
 }
 #floor{
-background-image: url("../images_shin/en.jpg");
+background-image: url("images/en.jpg");
 width:89%;
 height:760px;
 margin-left:5.2%;
@@ -55,7 +55,7 @@ width:100%;
 height:50px;
 background-color:white;
 margin-bottom:0px;
-/* background-image: url('../images_shin/d1.jpg');
+/* background-image: url('images/d1.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 50%; */ 
 }
@@ -106,10 +106,6 @@ h3 a:hover, a:hover{
 text-decoration:underline;}
 
 .lo{
-/* background-../images_shin: url('../images_shin/brown2.PNG'); */
-/* width:100%;
-height:50px; */
-/* margin:0px; */
 text-align:right;
 padding-left:7px;
 margin:20px 40px 20px 20px;
@@ -117,7 +113,7 @@ font-size:85%
 }
 
 .bg{
-background-image: url("../images_shin/1234.JPG");
+background-image: url("images/1234.JPG");
 background-repeat:no-repeat;
 width:85%;
 padding:10px 0px 0px 150px;

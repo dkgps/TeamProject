@@ -15,7 +15,7 @@ color: rgb(102,102,102);
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }

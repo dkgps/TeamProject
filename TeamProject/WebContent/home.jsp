@@ -101,14 +101,14 @@ float:right;
 margin-right:20px;}
 
 </style>
-<script src="/js/jquery-2.2.2.min.js"></script>
+<script src="./js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-	$(".contact").click(function() {
-		alert("Tel: 010-4567-8910")
-	});
+	$(document).ready(function() {
+		$(".contact").click(function() {
+			alert("Tel: 010-4567-8910")
+		});
 
-});
+	});
 </script>
 </head>
 <body>

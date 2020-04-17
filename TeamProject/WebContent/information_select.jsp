@@ -17,7 +17,7 @@ color: rgb(102,102,102);
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }
@@ -26,6 +26,8 @@ background-size: 100%, 5%;
 width:100%;
 height:450px;
 }
+
+
 
 </style>
 </head>
@@ -70,7 +72,7 @@ height:450px;
 					
 			<input id="bt1" type="submit" value="사업자번호 변경">	
 			
-			<input id="bt1" type="button" value="홈으로..." onclick="location.href='http://localhost/miniproject/home2.jsp'">
+			<input id="bt1" type="button" value="홈으로..." onclick="location.href='http://localhost/TeamProject/home2.jsp'">
 			
 	
 	</form>

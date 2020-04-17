@@ -28,7 +28,7 @@ text-decoration:none;}
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }
@@ -51,10 +51,6 @@ a:hover{
 text-decoration:underline;}
 
 .lo{
-/* background-../images_shin: url('../images_shin/brown2.PNG'); */
-/* width:100%;
-height:50px; */
-/* margin:0px; */
 text-align:right;
 padding-left:7px;
 margin:20px;
@@ -107,7 +103,7 @@ padding:20px}
 
 	<h1>로그인 되었습니다</h1>
 	<br>
-	<input type="button" value="Home으로" onclick="location.href='http://localhost/miniproject/home2.jsp'">
+	<input type="button" value="Home으로" onclick="location.href='http://localhost/TeamProject/home2.jsp'">
 </div>
 <div id="footer">
 <ul>

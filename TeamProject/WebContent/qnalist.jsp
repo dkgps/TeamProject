@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ page import="java.util.List" %>
 <%@ page import="mini.vo.Qnavo" %>
-<%@ page import="mini.dao.QnaDao" %>
+<%@ page import="mini.dao.QnaDao" %> 
 <% request.setCharacterEncoding("utf-8");%>
 <!DOCTYPE html>
 <html>
@@ -30,7 +30,7 @@ text-decoration:none;}
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }
@@ -53,10 +53,6 @@ a:hover{
 text-decoration:underline;}
 
 .lo{
-/* background-../images_shin: url('../images_shin/brown2.PNG'); */
-/* width:100%;
-height:50px; */
-/* margin:0px; */
 text-align:right;
 padding-left:7px;
 margin:20px;
@@ -110,13 +106,13 @@ List list = (List)request.getAttribute("bbslist");
 
 
 <div id="all">
-<h2 class="llogo"><a href="/miniproject/home2.jsp">DSMS</a></h2>
+<h2 class="llogo"><a href="home.jsp">DSMS</a></h2>
 <br>
 
 <div id="top">
 	<ul class="lo">
-	<li><a href="/miniproject/shop_add.jsp">입/퇴점관리</a></li>
-	<li><a href="/miniproject/home.jsp">로그아웃</a></li>
+	<li><a href="shop_add.jsp">입/퇴점관리</a></li>
+	<li><a href="home.jsp">로그아웃</a></li>
 	</ul>
 	<br>
 </div>

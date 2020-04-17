@@ -15,7 +15,7 @@ color: rgb(102,102,102);
 #all{
 width:100%;
 height:100px;
-background-image: url('../images_shin/en.jpg');
+background-image: url('images/en.jpg');
 background-repeat: no-repeat;
 background-size: 100%, 5%;
 }
@@ -53,7 +53,7 @@ height:450px;
 				<input id="bt1" type="submit" value="정보보기" onclick="action='information_select.jsp'">
 			
 	<div class='data'>	
-	<input type="button" value="Home으로" onclick="location.href='http://localhost/miniproject/home2.jsp'">
+	<input type="button" value="Home으로" onclick="location.href='http://localhost/TeamProject/home2.jsp'">
 </div>
 	</div>
 	</div>

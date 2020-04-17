@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ page import="java.sql.*" %>
 <%@ page import="mini.dao.StoreDao" %>
-<%@ page import="com.oreilly.servlet.MultipartRequest" %>
+<%@ page import="com.oreilly.servlet.MultipartRequest" %> 
 <%@ page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy" %>
 <%@ page import="java.util.Date" %>
-<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.text.SimpleDateFormat" %> 
 <%@ page import="java.io.*" %>
 <% request.setCharacterEncoding("utf-8");%>
 <!DOCTYPE html>

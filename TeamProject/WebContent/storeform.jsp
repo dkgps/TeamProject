@@ -2,7 +2,7 @@
 <%@ page import="mini.dao.StoreDao " %>
 <%@ page import="mini.vo.StoreVo" %>
 <%@ page import="mini.dao.MiniDao" %>
-<%@ page import="mini.vo.Member" %>
+<%@ page import="mini.vo.Member" %> 
 <% request.setCharacterEncoding("utf-8");%>
 <!DOCTYPE html>
 <html>
@@ -15,7 +15,7 @@ font-family: 나눔고딕;
 color:white;
 }
 #floor{
-background-image: url("../images_shin/en.jpg");
+background-image: url("images/en.jpg");
 width:89%;
 height:760px;
 margin-left:5.2%;
@@ -54,9 +54,6 @@ width:100%;
 height:50px;
 background-color:white;
 margin-bottom:0px;
-/* background-image: url('../images_shin/d1.jpg');
-background-repeat: no-repeat;
-background-size: 100%, 50%; */ 
 }
 
 #top {
@@ -105,10 +102,6 @@ h3 a:hover, a:hover{
 text-decoration:underline;}
 
 .lo{
-/* background-../images_shin: url('../images_shin/brown2.PNG'); */
-/* width:100%;
-height:50px; */
-/* margin:0px; */
 text-align:right;
 padding-left:7px;
 margin:20px 40px 20px 20px;

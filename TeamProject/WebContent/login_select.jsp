@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <% request.setCharacterEncoding("utf-8"); %>
-<%@ page import="mini.vo.Member" %>
+<%@ page import="mini.vo.Member" %> 
 <%@ page import="mini.dao.MiniDao" %>
 <!DOCTYPE html>
 <html>
